@@ -1,0 +1,211 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans");
+body {
+  margin-inline: 0;
+  font-family: "Noto Sans";
+}
+#cabeca {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-inline: 15px;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+li {
+  margin-inline: 10px;
+  background-color: rgba(0, 69, 145, 255);
+  border-radius: 7px;
+  padding: 5px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+/* #logo-verde {
+  width: 125px;
+  height: 40px;
+} */
+#artigo-1 {
+  background-image: url("../images/quadro.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  color: white;
+  text-align: center;
+  font-family: "Noto Sans";
+}
+
+#artigo-1 > h2 {
+  font-size: 50px;
+  padding-top: 5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#artigo-1 > p {
+  margin: 0px;
+  font-weight: lighter;
+}
+#on {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+#whats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-inline: 30px;
+}
+.icon {
+  width: 100px;
+  height: 75px;
+}
+.green {
+  color: black;
+  font-size: 18px;
+  text-align: left;
+  font-weight: bold;
+  margin-block: 10px;
+}
+.div-icon-dif {
+  border-color: white;
+  background-color: yellow;
+  border-width: 2px;
+  border-radius: 8px;
+  text-align: center;
+  padding-inline: 10px;
+  width: 200px;
+}
+.div-icon {
+  border-color: #172783;
+  background-color: white;
+  padding-inline: 10px;
+  border-style: ridge;
+  border-width: 5px;
+  border-radius: 8px;
+  text-align: center;
+  width: 200px;
+}
+.normal {
+  margin-inline: 10px;
+  font-size: 10px;
+  text-align: left;
+  margin-block: 0px;
+}
+#footer {
+  margin-top: 80px;
+  margin-inline: 10px;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.div-footer > p {
+  padding-bottom: 6px;
+}
+.div-footer {
+  border-color: #172783;
+  background-color: white;
+  border-width: 4px;
+  border-style: ridge;
+  border-radius: 5px;
+  padding-inline: 10px;
+  vertical-align: baseline;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.div-footer2 {
+  border-color: #172783;
+  background-color: white;
+  border-width: 4px;
+  border-style: ridge;
+  border-radius: 5px;
+  padding-inline: 10px;
+  vertical-align: baseline;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 60%;
+}
+
+#div-lateral {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-inline: 5%;
+  margin-bottom: 5%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+#branco {
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#spotfy {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cartoes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 100px;
+}
+.cartao-1,
+.cartao-2,
+.cartao-3 {
+  width: 250px;
+  background-color: bisque;
+  color: black;
+  text-decoration: underline;
+  padding-inline: 10px;
+  border-radius: 6px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.card-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.preco {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 30px;
+}
+button {
+  border-radius: 20px;
+  background-color: orange;
+  border-width: 0;
+  padding: 10px;
+  width: 170px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
